@@ -100,7 +100,7 @@ Add to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "academic-editor": {
-      "command": "python3",
+      "command": "/path/to/your/python3",
       "args": ["/path/to/mcp-academic-editor/server.py"],
       "env": {
         "PYTHONPATH": "/path/to/mcp-academic-editor"
@@ -109,6 +109,11 @@ Add to your `claude_desktop_config.json`:
   }
 }
 ```
+
+**Important**: Use the full path to Python where MCP packages are installed:
+- If using conda: `/Users/username/miniconda3/bin/python3`  
+- If using system Python with pip: `/usr/local/bin/python3`
+- Find your path with: `which python3`
 
 ### Standalone Usage
 
@@ -472,6 +477,29 @@ python3 tests/test_mcp_connection.py
 # Ensure PYTHONPATH is set correctly
 export PYTHONPATH="/path/to/mcp-academic-editor:$PYTHONPATH"
 ```
+
+### Python Path Issues
+If you see `ModuleNotFoundError: No module named 'mcp'`:
+
+1. **Check your Python installation**:
+   ```bash
+   which python3
+   python3 -c "import mcp; print('MCP installed')"
+   ```
+
+2. **Update Claude Desktop config** with the correct Python path:
+   ```json
+   "command": "/full/path/to/python3"
+   ```
+
+3. **Install MCP in the right environment**:
+   ```bash
+   # If using conda
+   conda install -c conda-forge mcp
+   
+   # If using pip
+   pip install mcp fastmcp
+   ```
 
 ## 🧪 Testing
 
