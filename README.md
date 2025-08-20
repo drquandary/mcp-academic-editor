@@ -4,6 +4,19 @@
 
 A sophisticated academic manuscript revision system that provides surgical, line-anchored editing tools through the Model Context Protocol (MCP). Designed specifically for researchers who need precise manuscript revisions while maintaining word count requirements and semantic integrity.
 
+Best for workflows like this:
+1) You receive comments from editor that can easily be resolved by: a) small edits in wording b) direct specific information provided in comments, c) organizational issues
+2) Use our J-Reviewer MCP (or a similar tool) which reviews your article then provides measured critiques 
+3) The have J-Reviewer propose surgical edits to address issues
+4) Then produces a patch, .diff or a full comment list that specifically addresses the issues
+5) Apply patch and review bolded edits (bolded-edits coming soon)
+
+
+Not good for:
+1) Issues that are open ended with no clear answer
+2) Ambiguous critique 
+3) Issues that require intensive extra research 
+
 ## 🔒 Critical Safety Features
 
 **Word Count Protection Guarantee**: This system will NEVER reduce your manuscript below 95% of its original word count. All edits are designed to augment and enhance your work, not replace or delete content.
