@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "academic-editor": {
+      "command": "python3",
+      "args": [
+        "/path/to/mcp-academic-editor/server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/path/to/mcp-academic-editor"
+      }
+    }
+  }
+}

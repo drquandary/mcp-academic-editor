@@ -1,0 +1,40 @@
+{
+  "journal": "American Anthropologist",
+  "style_guide": "AAA",
+  "formatting": {
+    "max_length": 10000,
+    "citation_style": "AAA",
+    "heading_levels": 4,
+    "figure_placement": "end",
+    "abstract_length": 150,
+    "keywords_count": 8
+  },
+  "language_rules": {
+    "passive_voice": "discouraged",
+    "first_person": "limited",
+    "contractions": "avoid",
+    "oxford_comma": true,
+    "em_dashes": "spaced"
+  },
+  "content_requirements": {
+    "abstract": "required",
+    "keywords": "required", 
+    "acknowledgments": "optional",
+    "funding_statement": "if_applicable",
+    "ethical_statement": "required_for_human_subjects",
+    "data_availability": "encouraged"
+  },
+  "citation_patterns": {
+    "in_text": "(Author Year: page)",
+    "bibliography": "References Cited",
+    "url_access_date": "required",
+    "doi_required": "when_available"
+  },
+  "style_checks": [
+    "no_split_infinitives",
+    "consistent_terminology",
+    "anthropological_voice",
+    "cultural_sensitivity",
+    "inclusive_language"
+  ]
+}

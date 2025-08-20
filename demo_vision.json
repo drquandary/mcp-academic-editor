@@ -1,0 +1,14 @@
+{
+  "thesis": "Human agency co-evolves with AI rather than being replaced by it",
+  "claims": [
+    "Users develop strategic approaches to AI interaction",
+    "Agency is maintained through boundary-setting practices",
+    "Community knowledge shapes individual AI use"
+  ],
+  "scope": "Digital ethnography of human-AI interaction patterns",
+  "do_not_change": [
+    "Core methodology",
+    "Theoretical framework"
+  ],
+  "journal_style": "Digital Anthropology Quarterly"
+}

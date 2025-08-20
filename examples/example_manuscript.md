@@ -1,0 +1,29 @@
+# Artificial Intelligence and Human Agency: A Research Study
+
+## Abstract
+
+This paper explores the relationship between artificial intelligence systems and human agency in digital environments. Through ethnographic analysis, we examine how users navigate AI interactions while maintaining autonomy.
+
+## Introduction
+
+Artificial intelligence has become increasingly prevalent in daily life, from recommendation systems to conversational agents. Understanding how humans maintain agency while interacting with these systems is crucial for both designers and users.
+
+## Methodology  
+
+We conducted a six-month digital ethnography study of AI user communities, focusing on how individuals discuss and strategize their AI interactions.
+
+## Results
+
+Our analysis revealed three key patterns in human-AI interaction:
+
+1. **Strategic Engagement**: Users develop explicit strategies for AI interaction
+2. **Boundary Maintenance**: Clear limits on AI influence in decision-making  
+3. **Community Learning**: Shared knowledge development about AI capabilities
+
+## Discussion
+
+These findings suggest that human agency is not diminished by AI interaction but rather evolves to accommodate new technological contexts.
+
+## Conclusion
+
+The relationship between AI and human agency is complex and dynamic. Rather than simple replacement or enhancement, we observe co-evolution of human strategies and AI capabilities.

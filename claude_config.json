@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "academic-editor": {
+      "command": "python",
+      "args": ["/Users/jeffreyvadala/Downloads/modallatour/MCPACADEMICEDITOR/server.py"],
+      "cwd": "/Users/jeffreyvadala/Downloads/modallatour/MCPACADEMICEDITOR"
+    }
+  }
+}

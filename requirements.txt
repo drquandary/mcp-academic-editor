@@ -1,0 +1,30 @@
+# MCP Academic Editor Requirements
+
+# Core MCP Protocol
+mcp>=1.0.0
+
+# FastMCP for server implementation  
+fastmcp>=0.1.0
+
+# Data processing
+pathlib2>=2.3.7
+typing-extensions>=4.0.0
+
+# Text processing and parsing
+markdown>=3.4.0
+python-dateutil>=2.8.0
+
+# Optional: Enhanced text processing
+nltk>=3.8.0
+spacy>=3.7.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0

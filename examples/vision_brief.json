@@ -1,0 +1,28 @@
+{
+  "thesis": "Agency in AI is distributed across human-machine assemblages and emerges through modal crossings rather than inhering in devices",
+  "claims": [
+    "Users develop modal literacy, a learned ability to recognize and navigate different modes of AI operation",
+    "Modal literacy is shaped by intersecting systems of power and privilege",
+    "AI therapy operates within structures of biopower, surveillance capitalism, and digital colonialism",
+    "Agency emerges from interactions across multiple modes rather than residing in discrete entities"
+  ],
+  "scope": "13,500-word anthropological analysis of AI therapy communities on Reddit",
+  "do_not_change": [
+    "Core theoretical framework based on Latour's modes of existence",
+    "Six-mode categorization (Technology, Politics, Reference, Morality, Attachment, Metamorphosis)",
+    "Case study subjects Alex and Maria",
+    "Ethnographic methodology and sample size (1,247 posts, 8,934 comments)",
+    "Modal indicators table and frequency statistics",
+    "April 2024 policy crisis details and petition signatures"
+  ],
+  "journal_style": "American Anthropologist",
+  "target_length": "maintain current length (~13,500 words)",
+  "additional_constraints": {
+    "preserve_ethnographic_voice": "essential",
+    "maintain_critical_theory_engagement": "required", 
+    "keep_intersectional_analysis": "required",
+    "preserve_decolonial_critique": "essential",
+    "no_fabricated_data": "absolutely forbidden",
+    "maintain_sample_limitations_honesty": "required"
+  }
+}

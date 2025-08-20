@@ -1,0 +1,66 @@
+[
+  {
+    "id": "R1-C1",
+    "source": "Nick Seaver", 
+    "type": "clarify",
+    "text": "Specify analytic pipeline for coding the six modes, including intercoder reliability.",
+    "links": ["sec:methodology", "para:coding"],
+    "priority": "high"
+  },
+  {
+    "id": "R2-C5",
+    "source": "Taina Bucher",
+    "type": "add_evidence", 
+    "text": "Analyze specific UI elements and safety prompts that enact attachment or limit reference mode. Include examples of prompt templates with line-by-line analysis.",
+    "links": ["sec:modal_crossings", "interface_analysis"],
+    "priority": "high"
+  },
+  {
+    "id": "R3-C12",
+    "source": "Byron Good",
+    "type": "restructure",
+    "text": "Add one extended 'algorithmic illness narrative' with excerpts. Distinguish symptom relief from transformation.",
+    "links": ["sec:case_studies", "para:maria"],
+    "priority": "medium"
+  },
+  {
+    "id": "R4-C8",
+    "source": "Tarleton Gillespie", 
+    "type": "add_evidence",
+    "text": "Name the concrete policy changes and dates, and show how threads mobilized. Distinguish platform governance from model governance.",
+    "links": ["sec:governance", "policy_changes"],
+    "priority": "high"
+  },
+  {
+    "id": "R5-C15",
+    "source": "Abeba Birhane",
+    "type": "clarify",
+    "text": "Move beyond citing bias to show harms in-situ for marginalized users. Include at least two counter-vignettes from non-dominant contexts or delete universal claims.", 
+    "links": ["sec:intersectionality", "decolonial_analysis"],
+    "priority": "high"
+  },
+  {
+    "id": "R6-C3",
+    "source": "Heather Horst",
+    "type": "add_citation",
+    "text": "Tie 'modal literacy' to media and digital literacy literatures. Provide a short appendix with a coding manual.",
+    "links": ["sec:theory", "modal_literacy"],
+    "priority": "medium"
+  },
+  {
+    "id": "R7-C9", 
+    "source": "Lilly Irani",
+    "type": "add_evidence",
+    "text": "Trace data value chains from thread to model improvement. Add labor and consent analysis for moderators and annotators.",
+    "links": ["sec:political_economy", "data_extraction"],
+    "priority": "medium"
+  },
+  {
+    "id": "R8-C6",
+    "source": "Christine Hine",
+    "type": "clarify", 
+    "text": "Clarify ethical protocol, consent, and interview count. Specify scraping or manual capture procedures.",
+    "links": ["sec:methodology", "ethics"],
+    "priority": "high"
+  }
+]

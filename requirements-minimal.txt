@@ -1,0 +1,14 @@
+# MCP server requirements
+mcp>=1.0.0
+
+# Minimal requirements for basic functionality
+pandas>=1.5.0
+numpy>=1.21.0
+pyyaml>=6.0
+
+# Optional for full functionality
+# python-docx>=0.8.11    # For Word document parsing
+# pypdf2>=3.0.0          # For PDF parsing  
+# torch>=1.13.0          # For embeddings/NLI
+# transformers>=4.21.0   # For semantic verification
+# sentence-transformers>=2.2.0  # For comment alignment

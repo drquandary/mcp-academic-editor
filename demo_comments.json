@@ -1,0 +1,32 @@
+[
+  {
+    "id": "comment_1",
+    "source": "Reviewer",
+    "type": "clarify",
+    "text": "The introduction needs more recent citations beyond Smith 2023"
+  },
+  {
+    "id": "comment_2",
+    "source": "Reviewer",
+    "type": "clarify",
+    "text": "The methodology section should include more detail about data collection procedures"
+  },
+  {
+    "id": "comment_3",
+    "source": "Reviewer",
+    "type": "clarify",
+    "text": "Consider adding a limitations section to the discussion"
+  },
+  {
+    "id": "comment_4",
+    "source": "Reviewer",
+    "type": "clarify",
+    "text": "The conclusion could benefit from implications for AI design"
+  },
+  {
+    "id": "comment_5",
+    "source": "Reviewer",
+    "type": "clarify",
+    "text": "Figure 1 referenced but not included - please add or remove reference"
+  }
+]

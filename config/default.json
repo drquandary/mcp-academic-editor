@@ -1,0 +1,73 @@
+{
+  "ingest": {
+    "preserve_formatting": true,
+    "extract_citations": true,
+    "chunk_size": "paragraph",
+    "supported_formats": [".docx", ".md", ".tex", ".pdf"],
+    "pandoc_options": [
+      "--wrap=none",
+      "--preserve-tabs",
+      "--extract-media=media/"
+    ]
+  },
+  "align": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "similarity_threshold": 0.7,
+    "top_k": 5,
+    "context_window": 3,
+    "boost_exact_matches": true
+  },
+  "plan": {
+    "classification_model": "distilbert-base-uncased",
+    "risk_assessment": true,
+    "conflict_detection": true,
+    "intent_templates": {
+      "clarify": "Clarify the following text to address reviewer concerns: {text}",
+      "add_citation": "Add appropriate citations to support: {text}",
+      "restructure": "Restructure this section according to: {feedback}",
+      "tighten": "Make this text more concise while preserving meaning: {text}"
+    }
+  },
+  "patch": {
+    "llm_model": "gpt-4",
+    "temperature": 0.1,
+    "max_tokens": 512,
+    "locality_constraint": "paragraph",
+    "system_prompt": "You are an academic editor. Make precise, minimal edits that address reviewer concerns while preserving the original meaning and claims."
+  },
+  "verify": {
+    "nli_model": "roberta-large-mnli",
+    "entailment_threshold": 0.8,
+    "citation_validation": true,
+    "style_checking": true,
+    "protected_elements": [
+      "figures",
+      "tables", 
+      "equations",
+      "core_claims"
+    ]
+  },
+  "assemble": {
+    "conflict_resolution": "manual",
+    "backup_original": true,
+    "track_changes": true,
+    "output_formats": [".docx", ".md", ".pdf"],
+    "diff_format": "unified"
+  },
+  "guardrails": {
+    "semantic_locks": {
+      "thesis_preservation": true,
+      "claim_preservation": true,
+      "figure_protection": true
+    },
+    "length_bands": {
+      "section_variance": 0.1,
+      "total_variance": 0.05
+    },
+    "citation_integrity": {
+      "no_deletion_without_replacement": true,
+      "validate_years": true,
+      "validate_authors": true
+    }
+  }
+}
