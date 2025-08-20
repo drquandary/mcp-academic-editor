@@ -7,7 +7,7 @@ A sophisticated academic manuscript revision system that provides surgical, line
 Best for workflows like this:
 1) You receive comments from editor that can easily be resolved by: a) small edits in wording b) direct specific information provided in comments, c) organizational issues
 2) Use our J-Reviewer MCP (or a similar tool) which reviews your article then provides measured critiques 
-3) The have J-Reviewer propose surgical edits to address issues
+3) Then have J-Reviewer propose surgical edits to address issues
 4) Then produces a patch, .diff or a full comment list that specifically addresses the issues
 5) Apply patch and review bolded edits (bolded-edits coming soon)
 
