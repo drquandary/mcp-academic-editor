@@ -80,7 +80,7 @@ Handles reviewer comments in **any format**:
 
 ### Quick Install
 ```bash
-git clone https://github.com/yourusername/mcp-academic-editor.git
+git clone https://github.com/drquandary/mcp-academic-editor.git
 cd mcp-academic-editor
 pip install -r requirements.txt
 ```
@@ -550,7 +550,7 @@ This system was developed for researchers working on complex academic manuscript
 
 ### Development Setup
 ```bash
-git clone https://github.com/yourusername/mcp-academic-editor.git
+git clone https://github.com/drquandary/mcp-academic-editor.git
 cd mcp-academic-editor
 pip install -e ".[dev]"
 pre-commit install
@@ -610,7 +610,7 @@ If you use this system in academic work, please cite:
   title={MCP Academic Editor: Surgical Manuscript Editing with Word Count Protection},
   author={Jeffrey Vadala},
   year={2024},
-  url={https://github.com/yourusername/mcp-academic-editor}
+  url={https://github.com/drquandary/mcp-academic-editor}
 }
 ```
 

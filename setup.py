@@ -23,7 +23,7 @@ setup(
     description="Surgical manuscript editing with word count protection via Model Context Protocol",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jeffreyvadala/mcp-academic-editor",
+    url="https://github.com/drquandary/mcp-academic-editor",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
